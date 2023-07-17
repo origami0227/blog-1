@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+nocturne-spider.baicizhan.com	TRUE	/	FALSE	1999999999	acw_tc	0a45662e16893164213073747e7bbdb4589b667f567a536f7d6b99a825ab71
+

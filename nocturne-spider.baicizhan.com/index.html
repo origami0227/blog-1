@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<!-- Mirrored from nocturne-spider.baicizhan.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2023 06:33:42 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="theme-color" content="#222">
+    <meta name="generator" content="Hexo 5.1.1">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-next.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32-next.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16-next.png">
+    <link rel="mask-icon" href="images/logo.svg" color="#222">
+
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <link rel="stylesheet" href="lib/font-awesome/css/all.min.css">
+
+    <script id="hexo-configurations">
+        let NexT = window.NexT || {};
+        let CONFIG = {
+            "hostname": "nocturne-spider.baicizhan.com",
+            "root": "/",
+            "scheme": "Muse",
+            "version": "7.8.0",
+            "exturl": false,
+            "sidebar": {"position": "left", "display": "always", "padding": 18, "offset": 12, "onmobile": false},
+            "copycode": {"enable": false, "show_result": false, "style": null},
+            "back2top": {"enable": true, "sidebar": false, "scrollpercent": false},
+            "bookmark": {"enable": false, "color": "#222", "save": "auto"},
+            "fancybox": false,
+            "mediumzoom": false,
+            "lazyload": false,
+            "pangu": false,
+            "comments": {
+                "style": "tabs",
+                "active": "valine",
+                "storage": true,
+                "lazyload": false,
+                "nav": null,
+                "activeClass": "valine"
+            },
+            "algolia": {
+                "hits": {"per_page": 10},
+                "labels": {
+                    "input_placeholder": "Search for Posts",
+                    "hits_empty": "We didn't find any results for the search: ${query}",
+                    "hits_stats": "${hits} results found in ${time} ms"
+                }
+            },
+            "localsearch": {
+                "enable": false,
+                "trigger": "auto",
+                "top_n_per_article": 1,
+                "unescape": false,
+                "preload": false
+            },
+            "motion": {
+                "enable": true,
+                "async": false,
+                "transition": {
+                    "post_block": "fadeIn",
+                    "post_header": "slideDownIn",
+                    "post_body": "slideDownIn",
+                    "coll_header": "slideLeftIn",
+                    "sidebar": "slideUpIn"
+                }
+            }
+        };
+    </script>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="白纸编程">
+    <meta property="og:url" content="https://nocturne-spider.baicizhan.com/index.html">
+    <meta property="og:site_name" content="白纸编程">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="article:author" content="白纸编程">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="canonical" href="index.html">
+
+
+    <script id="page-configurations">
+        // https://hexo.io/docs/letiables.html
+        CONFIG.page = {
+            sidebar: "",
+            isHome: true,
+            isPost: false,
+            lang: 'zh-CN'
+        };
+    </script>
+
+    <title>白纸编程</title>
+
+
+    <script>
+        let _hmt = _hmt || [];
+        (function () {
+            let hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?ab8ddafbce3f7ff86be6f2ab9bf24d48";
+            let s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+
+    <noscript>
+        <style>
+            .use-motion .brand,
+            .use-motion .menu-item,
+            .sidebar-inner,
+            .use-motion .post-block,
+            .use-motion .pagination,
+            .use-motion .comments,
+            .use-motion .post-header,
+            .use-motion .post-body,
+            .use-motion .collection-header {
+                opacity: initial;
+            }
+
+            .use-motion .site-title,
+            .use-motion .site-subtitle {
+                opacity: initial;
+                top: initial;
+            }
+
+            .use-motion .logo-line-before i {
+                left: initial;
+            }
+
+            .use-motion .logo-line-after i {
+                right: initial;
+            }
+        </style>
+    </noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+<div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner">
+            <div class="site-brand-container">
+                <div class="site-nav-toggle">
+                    <div class="toggle" aria-label="切换导航栏">
+                        <span class="toggle-line toggle-line-first"></span>
+                        <span class="toggle-line toggle-line-middle"></span>
+                        <span class="toggle-line toggle-line-last"></span>
+                    </div>
+                </div>
+
+                <div class="site-meta">
+
+                    <a href="index.html" class="brand" rel="start">
+                        <span class="logo-line-before"><i></i></span>
+                        <h1 class="site-title">白纸编程</h1>
+                        <span class="logo-line-after"><i></i></span>
+                    </a>
+                    <p class="site-subtitle" itemprop="description">爬虫练习站点</p>
+                </div>
+
+                <div class="site-nav-right">
+                    <div class="toggle popup-trigger">
+                    </div>
+                </div>
+            </div>
+
+
+            <nav class="site-nav">
+                <ul id="menu" class="main-menu menu">
+                    <li class="menu-item menu-item-home">
+
+                        <a href="index.html" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+                    </li>
+                </ul>
+            </nav>
+
+
+        </div>
+    </header>
+
+
+    <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        <span>0%</span>
+    </div>
+
+
+    <main class="main">
+        <div class="main-inner">
+            <div class="content-wrap">
+
+
+                <div class="content index posts-expand">
+
+
+                    <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+                        <link itemprop="mainEntityOfPage" href="2020/09/02/coco/index.html">
+
+                        <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://nocturne.bczcdn.com/img/0081l4sPly8g9kie5z6jmj30go0got8r.jpg">
+      <meta itemprop="name" content="白纸编程">
+      <meta itemprop="description" content="">
+    </span>
+
+                        <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="白纸编程">
+    </span>
+                        <header class="post-header">
+                            <h2 class="post-title" itemprop="name headline">
+
+                                <a href="2020/09/02/coco/index.html" class="post-title-link"
+                                   itemprop="url">寻梦环游记</a>
+                            </h2>
+
+                            <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-02 14:53:48" itemprop="dateCreated datePublished"
+                    datetime="2020-09-02T14:53:48+08:00">2020-09-02</time>
+            </span>
+                                <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-08 14:47:04" itemprop="dateModified" datetime="2020-09-08T14:47:04+08:00">2020-09-08</time>
+              </span>
+                                <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/%e6%9c%aa%e5%88%86%e9%a1%9e/index.html" itemprop="url" rel="index"><span
+                          itemprop="name">未分類</span></a>
+                </span>
+            </span>
+
+
+                                <span class="post-meta-item">
+
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+
+    <a title="valine" href="2020/09/02/coco/index.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/09/02/coco/"
+            itemprop="commentCount"></span>
+    </a>
+  </span>
+
+
+                            </div>
+                        </header>
+
+
+                        <div class="post-body" itemprop="articleBody">
+
+
+                            <p><img src="https://npbcz.files.wordpress.com/2020/09/coco_2017.jpg?w=220"></p>
+                            <p><em>《寻梦环游记》_以_墨西哥著名的亡灵节为题材，讲的是一个热爱音乐的小男孩米格不幸生长在一个抵制跟音乐有关的任何事情的家庭，他崇拜歌神德拉库斯想成为一名歌手。亡灵节那一天他机缘巧合的越过了花瓣桥穿越到了亡灵的世界，在天亮前如果不能得到亲人的祝福就无法回到现实的世界，米格开始艰难的回家之旅的故事。在这个过程中他经历并感受了爱与亲情，遭受了来自原本崇拜的歌神德拉库斯的背叛和陷害，也揭开了为何家族痛恨音乐的原因。</em>
+                            </p>
+                            <p><em>尽管《寻梦环游记》有着绚丽画面、美妙音乐，但该片最打动人心的仍然是一个精彩又温暖的故事。这个故事绝不复杂，孩子们皆能看懂，讲述的也是追求理想、关爱家人等寻常主题，然而，创作团队却能将该故事讲得一波三折、自然流畅。加上对死后灵魂世界的大胆创想，更是展现了人类艺术创造力的极致，丰富的文化内涵也令人叹为观止。</em>
+                            </p>
+
+
+                        </div>
+
+
+                        <footer class="post-footer">
+                            <div class="post-eof"></div>
+                        </footer>
+                    </article>
+
+                    <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+                        <link itemprop="mainEntityOfPage" href="2020/07/29/example-post-3/index.html">
+
+                        <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://nocturne.bczcdn.com/img/0081l4sPly8g9kie5z6jmj30go0got8r.jpg">
+      <meta itemprop="name" content="白纸编程">
+      <meta itemprop="description" content="">
+    </span>
+
+                        <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="白纸编程">
+    </span>
+                        <header class="post-header">
+                            <h2 class="post-title" itemprop="name headline">
+
+                                <a href="2020/07/29/example-post-3/index.html" class="post-title-link" itemprop="url">Python的特点</a>
+                            </h2>
+
+                            <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-07-29 10:07:04" itemprop="dateCreated datePublished"
+                    datetime="2020-07-29T10:07:04+08:00">2020-07-29</time>
+            </span>
+                                <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-08 14:47:04" itemprop="dateModified" datetime="2020-09-08T14:47:04+08:00">2020-09-08</time>
+              </span>
+                                <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/%e6%9c%aa%e5%88%86%e9%a1%9e/index.html" itemprop="url" rel="index"><span
+                          itemprop="name">未分類</span></a>
+                </span>
+            </span>
+
+
+                                <span class="post-meta-item">
+
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+
+    <a title="valine" href="2020/07/29/example-post-3/index.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/07/29/example-post-3/"
+            itemprop="commentCount"></span>
+    </a>
+  </span>
+
+
+                            </div>
+                        </header>
+
+                        <div class="post-body" itemprop="articleBody">
+
+
+                            <p>1.<strong>Python概念</strong>：是一门高级的，面向对象的，解释性脚本语言</p>
+                            <p>
+                                编程语言：是指开发人员使用计算机与人类约定好的语法，向计算机阐述某种事实，用编程语言告诉计算机想要的功能和内容。</p>
+                            <p>
+                                高级的：计算机中分高级语言和底层语言，高级语言贴近开发者，底层语言贴近机器，因此，该语言是开发人员使用的编程语言。</p>
+                            <p>
+                                面向对象的：软件开发方法包括两种，面向对象和面向过程。面向过程强调解决问题的步骤，定义多个函数使用时调用即可，面向对象强调解决问题的对象，用类和过程强调解决问题的行为。</p>
+                            <p>
+                                解释性语言：计算机不能直接理解程序语言，要先将程序语言翻译成机器语言，编译器翻译有两种，分别是编译和解释，两种翻译时间不同，编译型语言第一次执行前会进行专门翻译，之后直接使用；解释性语言在每次运行时都需要翻译。</p>
+                            <p><strong>2.Python特点</strong></p>
+                            <p>学习成本低，简单易学。</p>
+                            <p>
+                                功能强大：开源，很多都支持Python开发；其次，Python具有强大的/丰富的模块。模块分为内置模块和第三方模块，内置模块是指我们在安装Python之后自带的模块，三方模块是指自己需安装的模块。</p>
+                            <p>Python和其他语言契合性特别高，可以轻松的调用其他语言编写的模块，胶水语言。</p>
+                            <p>
+                                Python的开发效率高，强大类库避免许多功能重写。但是Python的运算效率低，解决方案首先用Python将整个项目大体框架搭建起来，然后在效率功能上使用其他语言重写。</p>
+
+
+                        </div>
+
+
+                        <footer class="post-footer">
+                            <div class="post-eof"></div>
+                        </footer>
+                    </article>
+
+
+                </div>
+
+
+                <script>
+                    window.addEventListener('tabs:register', () => {
+                        let {activeClass} = CONFIG.comments;
+                        if (CONFIG.comments.storage) {
+                            activeClass = localStorage.getItem('comments_active') || activeClass;
+                        }
+                        if (activeClass) {
+                            let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+                            if (activeTab) {
+                                activeTab.click();
+                            }
+                        }
+                    });
+                    if (CONFIG.comments.storage) {
+                        window.addEventListener('tabs:click', event => {
+                            if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+                            let commentClass = event.target.classList[1];
+                            localStorage.setItem('comments_active', commentClass);
+                        });
+                    }
+                </script>
+
+            </div>
+
+
+            <div class="toggle sidebar-toggle">
+                <span class="toggle-line toggle-line-first"></span>
+                <span class="toggle-line toggle-line-middle"></span>
+                <span class="toggle-line toggle-line-last"></span>
+            </div>
+
+            <aside class="sidebar">
+                <div class="sidebar-inner">
+
+                    <ul class="sidebar-nav motion-element">
+                        <li class="sidebar-nav-toc">
+                            文章目录
+                        </li>
+                        <li class="sidebar-nav-overview">
+                            站点概览
+                        </li>
+                    </ul>
+
+                    <!--noindex-->
+                    <div class="post-toc-wrap sidebar-panel">
+                    </div>
+                    <!--/noindex-->
+
+                    <div class="site-overview-wrap sidebar-panel">
+                        <div class="site-author motion-element" itemprop="author" itemscope
+                             itemtype="http://schema.org/Person">
+                            <img class="site-author-image" itemprop="image" alt="白纸编程"
+                                 src="https://nocturne.bczcdn.com/img/0081l4sPly8g9kie5z6jmj30go0got8r.jpg">
+                            <p class="site-author-name" itemprop="name">白纸编程</p>
+                            <div class="site-description" itemprop="description"></div>
+                        </div>
+                        <div class="site-state-wrap motion-element">
+                            <nav class="site-state">
+                                <div class="site-state-item site-state-posts">
+                                    <a href="archives.html">
+                                        <span class="site-state-item-count">2</span>
+                                        <span class="site-state-item-name">笔记</span>
+                                    </a>
+                                </div>
+                                <div class="site-state-item site-state-categories">
+                                    <span class="site-state-item-count">1</span>
+                                    <span class="site-state-item-name">分类</span>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <div class="links-of-blogroll motion-element">
+                            <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+                                Links
+                            </div>
+                            <ul class="links-of-blogroll-list">
+                                <li class="links-of-blogroll-item">
+                                    <a href="https://www.penpencode.com/open_courses/"
+                                       rel="noopener" target="_blank">白纸官网</a>
+                                </li>
+                                <li class="links-of-blogroll-item">
+                                    <a href="https://www.xiaohongshu.com/user/profile/6352dd54000000001802faf7?xhsshare=WeixinSession&appuid=5be90c69f7e8b924452f2e39&apptime=1689317062"
+                                       rel="noopener" target="_blank">白纸小红书</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </aside>
+            <div id="sidebar-dimmer"></div>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+
+
+            <div class="copyright">
+
+                &copy;
+                <span itemprop="copyrightYear">2021</span>
+                <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+                <span class="author" itemprop="copyrightHolder">白纸编程</span>
+            </div>
+            <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener"
+                                          target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/"
+                                                                        class="theme-link" rel="noopener"
+                                                                        target="_blank">NexT.Muse</a> 强力驱动
+            </div>
+
+
+        </div>
+    </footer>
+</div>
+
+
+<script src="lib/anime.min.js"></script>
+<script src="lib/velocity/velocity.min.js"></script>
+<script src="lib/velocity/velocity.ui.min.js"></script>
+
+<script src="js/utils.js"></script>
+
+<script src="js/motion.js"></script>
+
+
+<script src="js/schemes/muse.js"></script>
+
+
+<script src="js/next-boot.js"></script>
+
+
+<script>
+    NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+        NexT.utils.getScript('http://unpkg.com/valine/dist/Valine.min.js', () => {
+            let GUEST = ['nick', 'mail', 'link'];
+            let guest = 'nick,mail';
+            guest = guest.split(',').filter(item => {
+                return GUEST.includes(item);
+            });
+            new Valine({
+                el: '#valine-comments',
+                verify: false,
+                notify: false,
+                appId: 'JR8QHgB4FtOoeVMX5YSMFTXc-gzGzoHsz',
+                appKey: 'yn79iaFL8NOjtvnP0IQzOikv',
+                placeholder: "",
+                avatar: 'mm',
+                meta: guest,
+                pageSize: '10' || 10,
+                visitor: false,
+                lang: 'zh-cn' || 'zh-cn',
+                path: location.pathname,
+                recordIP: true,
+                serverURLs: ''
+            });
+        }, window.Valine);
+    });
+</script>
+
+</body>
+
+<!-- Mirrored from nocturne-spider.baicizhan.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2023 06:33:59 GMT -->
+</html>
