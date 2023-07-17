@@ -11,10 +11,17 @@
       <change beforePath="$PROJECT_DIR$/../Node/node-todo-1/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Node/node-todo-1/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Node/node-todo-1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/07/29/example-post-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/07/29/example-post-3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/08/07/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/08/07/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/08/08/域名/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/08/14/2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/08/14/xun/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/08/20/photo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/09/01/libai/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/2020/09/02/coco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/archives.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/categories/未分類/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/categories/未分類/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nocturne-spider.baicizhan.com/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv/src/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-lifecycle-demo/src/App.js" beforeDir="false" />
@@ -45,17 +52,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "4b2744",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/piwang/Desktop/baizhi",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;4b2744&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/piwang/Desktop/baizhi&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,11 +73,23 @@
       <updated>1689316040124</updated>
       <workItem from="1689316041266" duration="4896000" />
       <workItem from="1689323517828" duration="13000" />
-      <workItem from="1689558613990" duration="1733000" />
+      <workItem from="1689558613990" duration="3652000" />
+      <workItem from="1689578219751" duration="671000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
